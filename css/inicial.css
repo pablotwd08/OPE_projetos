@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #87CEFA;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.opcoes {
+    width: 520px;
+    height: 620px;
+    border: 2px solid white;
+    background-color: seashell;
+    align-items: center;
+}
+
+h1 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: none;
+}
+
+a {
+    display: block;
+    width: 260px;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 5px;
+    margin: 20px;
+    background-color: #A9A9A9;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
